@@ -36,9 +36,11 @@ This toolkit consists of two main parts:
 ### Installation
 
 1. Clone this repository to your local machine:
+
         git clone https://github.com/Abusheik008/mAP.git
         cd your-repo
 2. Install the required packages using `pip`:
+
         pip install -r requirement.txt
 
 ### Usage
@@ -54,6 +56,7 @@ This toolkit consists of two main parts:
 - `output_json_path`: Path to the output JSON file.
 
 3. Run the script:
+
         python main.py
 
 4. Review the output:
