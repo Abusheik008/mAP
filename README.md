@@ -38,7 +38,7 @@ This toolkit consists of two main parts:
 1. Clone this repository to your local machine:
 
         git clone https://github.com/Abusheik008/mAP.git
-        cd your-repo
+        cd mAP
 2. Install the required packages using `pip`:
 
         pip install -r requirement.txt
