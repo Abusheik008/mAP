@@ -36,10 +36,10 @@ This toolkit consists of two main parts:
 ### Installation
 
 1. Clone this repository to your local machine:
-    git clone https://github.com/yourusername/your-repo.git
-    cd your-repo
+        git clone https://github.com/Abusheik008/mAP.git
+        cd your-repo
 2. Install the required packages using `pip`:
-    pip install -r requirement.txt
+        pip install -r requirement.txt
 
 ### Usage
 
@@ -54,7 +54,7 @@ This toolkit consists of two main parts:
 - `output_json_path`: Path to the output JSON file.
 
 3. Run the script:
-    python main.py
+        python main.py
 
 4. Review the output:
 - The script will print the calculated mAP and class-wise APs.
@@ -64,18 +64,18 @@ This toolkit consists of two main parts:
 
 The file structure is organized as follows:
 
-    ├── main.py # Main execution script
-    ├── input
-    │ ├── onnx_detector.py # ONNX detection module
-    │ └── map_evaluator.py # mAP evaluation module
-    │ └── reusable_code.py # Reusable code module (provided separately)
-    ├── input
-    │ ├── detection-results # Detection result files
-    │ └── ground-truth # Ground-truth annotation files
-    ├── model # Directory containing ONNX model
-    ├── Test dataset # Directory containing test images
-    ├── requirements.txt # List of required packages
-    └── README.md # Project documentation
+        ├── main.py # Main execution script
+        ├── input
+        │ ├── onnx_detector.py # ONNX detection module
+        │ └── map_evaluator.py # mAP evaluation module
+        │ └── reusable_code.py # Reusable code module (provided separately)
+        ├── input
+        │ ├── detection-results # Detection result files
+        │ └── ground-truth # Ground-truth annotation files
+        ├── model # Directory containing ONNX model
+        ├── Test dataset # Directory containing test images
+        ├── requirements.txt # List of required packages
+        └── README.md # Project documentation
 
 ## License
 
